@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="calculator" project="stringcalculator" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="calculator.TestCalculator" time="0.007">
+    <testcase name="initializationError" classname="calculator.TestCalculator" time="0.008">
+      <error>org.junit.runners.model.InvalidTestClassError: Invalid test class 'calculator.TestCalculator':
+  1. The class calculator.TestCalculator is not public.
+  2. Test class should have exactly one public constructor
+  3. Method string_with_single_number_should_return_number_as_int() should be public
+  4. Method string_with_single_number_should_return_number_as_int1() should be public
+  5. Method string_with_single_number_should_return_number_as_int2() should be public
+  6. Method string_with_single_number_should_return_number_as_int3() should be public
+  7. Method string_with_single_number_should_return_number_as_int4() should be public
+  8. Method empty_string_should_return_0() should be public&#13;
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:525)&#13;
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:102)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:84)&#13;
+	at org.junit.runners.JUnit4.&lt;init&gt;(JUnit4.java:23)&#13;
+	at org.junit.internal.builders.JUnit4Builder.runnerForClass(JUnit4Builder.java:10)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)&#13;
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:90)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:76)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:49)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:525)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
